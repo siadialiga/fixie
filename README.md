@@ -62,3 +62,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 You can deploy the application on Vercel. 
 - Ensure all environment variables are added in the Vercel project settings.
 - To run the queue processing periodically, configure an external cron service (like cron-job.org) to ping `https://your-domain.vercel.app/api/process-queue` with the header `Authorization: Bearer <your_cron_secret>`.
+
+This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
